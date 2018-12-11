@@ -1,14 +1,18 @@
 
+//Name:Babatund
 
 package main
 
 import "fmt"
 
-const language = "Ghana"
+const lang_1 = "Ghana"
+const lang_2 = "Bini"
 
 func main(){
     fmt.Println("Welcome to my Gopher domain.")
-    var message = "Akwaaba"
-    fmt.Println("The word",message, "originated from" ,language,".")
+    var ghMessage = "Akwaaba"
+    var biMessage = "koyoo"
+    fmt.Println("The word",ghMessage, "originated from" ,lang_1,".")
+    fmt.Println("The phrase",biMessage,"originated from", lang_2,".")
     
 }
