@@ -1,5 +1,9 @@
 
-//Name:Babatund
+/** 
+
+Name:Babatunde 
+
+**/
 
 package main
 
@@ -15,4 +19,8 @@ func main(){
     fmt.Println("The word",ghMessage, "originated from" ,lang_1,".")
     fmt.Println("The phrase",biMessage,"originated from", lang_2,".")
     
+    printVariables()
+    showData()
+    Sensei()
 }
+
