@@ -12,9 +12,8 @@ func printVariables() {
 }
 
 func showData(){
-<<<<<<< HEAD
-	var fName, lName, zip = "Bumbee", "Bumbee", 97000
 
+	var fName, lName, zip = "Bumbee", "Bumbee", 97000
 	fmt.Println(fName, lName, zip)
 
 	var country = "USA"
