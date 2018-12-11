@@ -4,6 +4,10 @@
 Name:Babatunde 
 
 **/
+// Copyright © 2018 Babatunde
+//
+// Golang stuff
+// Version:1.0
 
 package main
 
