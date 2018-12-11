@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
-func main() {
+func Sensei() {
+	fmt.Println("-------------")
 	// Add up my name :)
 
 	fmt.Println("Baba" + "tunde" + "{" + "Coding Sensei" + "}")
