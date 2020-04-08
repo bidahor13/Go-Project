@@ -4,12 +4,16 @@ import (
 	"fmt"
 )
 
-func main() {
-
+func printVariables() {
+	fmt.Println("-------------")
 	var greeting = "Welcome"
 	fmt.Println(greeting)
 
-	var fName, lName, zip = "Tunde", "Idahor", 97000
+}
+
+func showData(){
+
+	var fName, lName, zip = "Bumbee", "Bumbee", 97000
 	fmt.Println(fName, lName, zip)
 
 	var country = "USA"
@@ -23,5 +27,4 @@ func main() {
 
 	Age := 100
 	fmt.Println(Age)
-
 }
